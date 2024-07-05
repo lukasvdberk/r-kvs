@@ -16,5 +16,5 @@ jobs:
           API_KEY: ${{ secrets.COMPOSE_DEPLOY_API_KEY }}
         with:
           project-id: '823321187'
-          docker-compose-file: 'compose.yml'
+          docker-compose-file: 'compose.yaml'
     
